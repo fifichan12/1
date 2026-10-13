@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@theme {
+  --color-surface: #121416;
+  --color-surface-dim: #121416;
+  --color-surface-dark: #111315;
+  --color-surface-panel: #1A1D20;
+  --color-surface-elevated: #22262B;
+  --color-surface-bright: #38393c;
+  --color-surface-container: #1e2022;
+  --color-surface-container-low: #1a1c1e;
+  --color-surface-container-high: #282a2c;
+  --color-surface-container-highest: #333537;
+  --color-surface-container-lowest: #0c0e10;
+  --color-surface-variant: #333537;
+  --color-tactical-amber: #E87A1E;
+  --color-tactical-green: #2ECC71;
+  --color-tactical-red: #E74C3C;
+  --color-olive-sage: #AECFB2;
+  --color-olive-muted: #3B4D3F;
+  --color-steel-gray: #8E9297;
+  --color-off-white: #E2E3DF;
+  --color-primary: #ffb787;
+  --color-primary-container: #E87A1E;
+  --color-on-primary-container: #502400;
+  --color-secondary-container: #3B4D3F;
+  --color-secondary: #B7CCB9;
+  --color-tertiary: #4AE183;
+  --color-tertiary-container: #00ae5b;
+  --color-on-surface: #E2E2E5;
+  --color-on-surface-variant: #DDC1B1;
+  --color-error: #ffb4ab;
+  --color-error-container: #93000A;
+  --color-on-error-container: #FFDAD6;
+
+  --font-display-hero: 'Space Grotesk', sans-serif;
+  --font-headline-lg: 'Space Grotesk', sans-serif;
+  --font-headline-md: 'Space Grotesk', sans-serif;
+  --font-title-sm: 'Space Grotesk', sans-serif;
+  --font-body-lg: 'Inter', sans-serif;
+  --font-body-md: 'Inter', sans-serif;
+  --font-body-sm: 'Inter', sans-serif;
+  --font-label-mono-lg: 'JetBrains Mono', monospace;
+  --font-label-mono-sm: 'JetBrains Mono', monospace;
+  --font-callsign-badge: 'JetBrains Mono', monospace;
+
+  --spacing-space-xs: 0.25rem;
+  --spacing-space-sm: 0.5rem;
+  --spacing-space-md: 1rem;
+  --spacing-space-lg: 1.5rem;
+  --spacing-space-xl: 2.5rem;
+  --spacing-space-2xl: 4rem;
+  --spacing-gutter: 1.25rem;
+  --spacing-gutter-desktop: 2rem;
+  --spacing-margin-desktop: 3rem;
+  --radius-DEFAULT: 0.25rem;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    color-scheme: dark;
+    background-color: #121416;
+    color: #e2e2e5;
+  }
+  
+  body {
+    background-color: #121416;
+    color: #e2e2e5;
+    font-family: 'Inter', sans-serif;
+    min-height: 100vh;
+  }
+
+  /* Custom subtle scrollbar */
+  ::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #111315;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #282a2c;
+    border-radius: 3px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #E87A1E;
+  }
+}
+
+.material-symbols-outlined {
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 20px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  display: inline-block;
+  white-space: nowrap;
+  word-wrap: normal;
+  direction: ltr;
+  -webkit-font-feature-settings: 'liga';
+  -webkit-font-smoothing: antialiased;
+}
