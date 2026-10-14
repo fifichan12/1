@@ -1,6 +1,0 @@
-{
-  "name": "FOST Airsoft | Forces Opérationnelles Spéciales Tactiques",
-  "description": "Portail officiel de l'association FOST Airsoft : Roster des opérateurs, armurerie interactive Cerakote (MP5, MK, AK), calendrier des opérations MilSim & CQB, et QG Command tactique.",
-  "requestFramePermissions": [],
-  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
-}
